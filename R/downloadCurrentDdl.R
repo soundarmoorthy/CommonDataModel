@@ -17,7 +17,7 @@
 #' @importFrom utils download.file
 #' @export
 
-downloadCurrentDdl <- function(githubPath="OHDSI/CommonDataModel",
+downloadCurrentDdl <- function(githubPath="soundarmoorthy/CommonDataModel",
                                pathToCsv="Sql%20Server/OMOP%20CDM%20sql%20server%20ddl.txt",
                                outputFile = paste0("inst/sql/sql_server/OMOP CDM ddl ",Sys.Date(),".sql")){
 
